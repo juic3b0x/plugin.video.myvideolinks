@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.myvideolinks" version="1.0.0" name="MyVideoLinks" provider-name="agentklepto">
+    <requires>
+        <import addon="xbmc.addon" version="20.90.101"/>
+        <import addon="script.module.six" />
+        <import addon="script.module.beautifulsoup4" version="4.12.2"/>
+        <import addon="script.module.t0mm0.common" version="3.0.0"/>
+        <import addon="script.module.resolveurl" version="5.1.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+        <import addon="script.module.pyxbmct" version="1.2.0"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="search.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MyVideoLinks Kodi Addon</summary>
+        <description lang="en">Search and play videos from MyVideoLinks.</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GPL-2.0-or-later</license>
+        <disclaimer lang="en">All the movies on this add-on are hosted on third-party sites and uploaded by other people. We are not responsible for any content that is hosted on third-party sites. If you have any legal issues, please contact the appropriate video owners or hosters.</disclaimer>
+        <website>https://juic3b0x.github.io</website>
+        <source>https://juic3b0x.github.io/repo</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

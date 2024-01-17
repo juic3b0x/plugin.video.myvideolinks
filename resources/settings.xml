@@ -1,0 +1,6 @@
+<settings>
+    <category label="MyVideoLinks Settings" name="plugin.video.myvideolinks">
+        <setting id="search_query" type="text" label="Default Search Query" default="" />
+    </category>
+</settings>
+
